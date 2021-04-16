@@ -1,10 +1,10 @@
 ---
 # private ip/hostname of the provider host. It should be resolvable and accessible from the main stf host
-stf_provider_host: 192.168.88.96
+stf_provider_host: 10.208.30.175
 
 # public and private ip/hostname of the server where main stf services are deployed
-stf_public_host: demo.zebrunner.farm
-stf_private_host: 192.168.88.95
+stf_public_host: stf.pyn.ru
+stf_private_host: 10.208.30.175
 
 stf_tcp_sub_port: 7250
 stf_tcp_pub_port: 7270
@@ -19,45 +19,105 @@ selenium_hub_host: mcloud-grid
 selenium_hub_port: 4444
 
 devices:
-  - id: 42009c44d068b461
-    name: Samsung_Galaxy_J3
+  - id: 0123456789ABCDEF
+    name: ZTE_Blade_A476
     adb_port: 5038
     min_port: 7401
     max_port: 7410
     proxy_port: 9000
-  - id: 5200e0a5e2982529
-    name: Samsung_Galaxy_J5
+  - id: 03157df360dd0625
+    name: Samsung_G920F
     adb_port: 5039
     min_port: 7411
     max_port: 7420
     proxy_port: 9001
-  - id: 52003eafc01f25ad
-    name: Samsung_Galaxy_J7
+  - id: 0bb39c2e036ab4ea
+    name: Nexus_5
     adb_port: 5040
     min_port: 7421
     max_port: 7430
     proxy_port: 9002
-  - id: 5200649f4909a42d
-    name: Samsung_Galaxy_A5
+  - id: 0bb9a067
+    name: Samsung_GT_I9301I
     adb_port: 5041
     min_port: 7431
     max_port: 7440
     proxy_port: 9003
-  - id: ce0217124acd220405
-    name: Samsung_Galaxy_S7
+  - id: 42f780179de3afb7
+    name: Samsung_GT_N7100
     adb_port: 5042
     min_port: 7441
     max_port: 7450
     proxy_port: 9004
-  - id: 988a1c424436513832
-    name: Samsung_Galaxy_S8_Plus
+  - id: 611HZBR433AJF
+    name: Meizu_M5
     adb_port: 5043
     min_port: 7451
     max_port: 7460
     proxy_port: 9005
-  - id: RQ3004CE5F
-    name: Sony_Xperia_XA1
+  - id: 712041103524
+    name: ZTE_BLADE_L110
     adb_port: 5044
     min_port: 7461
     max_port: 7470
     proxy_port: 9006
+  - id: 7YYDU17A19001534
+    name: Honor_8_lite
+    adb_port: 5045
+    min_port: 7471
+    max_port: 7480
+    proxy_port: 9007
+  - id: BX9037QGY9
+    name: Xperia_S
+    adb_port: 5046
+    min_port: 7481
+    max_port: 7490
+    proxy_port: 9008
+  - id: DUJ6R20226003725
+    name: Huawei_P40_lite
+    adb_port: 5047
+    min_port: 7491
+    max_port: 7500
+    proxy_port: 9009
+  - id: HA0NT0V8
+    name: Lenovo_Tab_2
+    adb_port: 5048
+    min_port: 7501
+    max_port: 7510
+    proxy_port: 9010
+  - id: MB433W903027
+    name: HTC_One
+    adb_port: 5049
+    min_port: 7511
+    max_port: 7520
+    proxy_port: 9011
+  - id: SOPR4DNVR4ONY9FE
+    name: Alcatel_Pixie_4
+    adb_port: 5050
+    min_port: 7521
+    max_port: 7530
+    proxy_port: 9012
+  - id: W3D7N15915021709
+    name: Huawei_P8_Lite
+    adb_port: 5051
+    min_port: 7531
+    max_port: 7540
+    proxy_port: 9013
+  - id: d6d9d3f0
+    name: Samsung_J4
+    adb_port: 5052
+    min_port: 7541
+    max_port: 7550
+    proxy_port: 9014
+  - id: 83394254559317
+    name: Fly
+    adb_port: 5053
+    min_port: 7551
+    max_port: 7560
+    proxy_port: 9015
+  - id: HEKNU17923107550
+    name: Sony_Xperia_Tablet
+    adb_port: 5054
+    min_port: 7561
+    max_port: 7570
+    proxy_port: 9016
