@@ -121,3 +121,15 @@ devices:
     min_port: 7561
     max_port: 7570
     proxy_port: 9016
+  - id: RZ8N1067CKW 
+    name: Galaxy_A30s
+    adb_port: 5055
+    min_port: 7571
+    max_port: 7580
+    proxy_port: 9017
+  - id: RZ8MB2QDGJH
+    name: Galaxy_A30s_13026
+    adb_port: 5056
+    min_port: 7581
+    max_port: 7590
+    proxy_port: 9018
